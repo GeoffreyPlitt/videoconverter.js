@@ -5,5 +5,5 @@
 /* tree. An additional intellectual property rights grant can be found */
 /* in the file PATENTS.  All contributing project authors may */
 /* be found in the AUTHORS file in the root of the source tree. */
-static const char* const cfg = "--prefix=/Users/bgrinstead/Sites/videoconverter.js/build/libvpx2/../dist --disable-examples --disable-docs --disable-multithread --disable-optimizations --target=generic-gnu";
+static const char* const cfg = "--prefix=/Users/bgrinstead/Sites/videoconverter.js/build/libvpx/../dist --disable-examples --disable-vp8 --disable-docs --disable-multithread --target=generic-gnu";
 const char *vpx_codec_build_config(void) {return cfg;}
