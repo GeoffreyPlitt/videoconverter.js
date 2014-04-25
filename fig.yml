@@ -1,0 +1,5 @@
+compiler:
+  #build: .
+  image: hanazuki/ubuntu-emscripten
+  volumes:
+    - /vagrant/:/vagrant
