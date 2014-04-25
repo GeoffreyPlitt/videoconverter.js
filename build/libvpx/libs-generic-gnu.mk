@@ -24,7 +24,7 @@ NM=nm
 
 CFLAGS  =  -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function
 CXXFLAGS  =  -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function
-ARFLAGS = -rus$(if $(quiet),c,v)
+ARFLAGS = rus$(if $(quiet),c,v)
 LDFLAGS = 
 ASFLAGS = 
 extralibs = 

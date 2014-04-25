@@ -1,7 +1,3 @@
 .DS_Store
 thumbs.db
 *.bc
-
-build/libvpx/**/.*
-build/libvpx/**/*.o
-build/libvpx/**/*.d

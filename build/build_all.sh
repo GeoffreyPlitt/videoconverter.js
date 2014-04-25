@@ -50,11 +50,11 @@ rm dist/*.bc
 # cp dist/lib/libvorbis.a dist/libvorbis.bc
 
 cp dist/lib/libvpx.a dist/libvpx.bc
-cp dist/lib/libz.bc dist/libz.bc
+cp dist/lib/libz.a dist/libz.bc
 cp ffmpeg/ffmpeg dist/ffmpeg.bc
 
 cd dist
-emcc -s OUTLINING_LIMIT=100000 -s VERBOSE=1 -s TOTAL_MEMORY=33554432 -O2 -v ffmpeg.bc libvpx.bc libz.bc -o ../ffmpeg_asm.js --pre-js ../ffmpeg_pre.js --post-js ../ffmpeg_post.js
+emcc -s OUTLINING_LIMIT=100000 -s VERBOSE=1 -s TOTAL_MEMORY=33554432 -O2 -v ffmpeg.bc libvpx.bc libz.bc -o ../ffmpeg_all.js --pre-js ../ffmpeg_pre.js --post-js ../ffmpeg_post.js
 cd ..
 
 

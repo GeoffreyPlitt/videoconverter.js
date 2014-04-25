@@ -6,222 +6,222 @@ Configuring for target 'generic-gnu'
   enabling generic
 check_cxxflags -O3
 check_cxx -O3
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -O3
 check_cc -O3
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
   enabling use_x86inc
 check_cc
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	    unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cc
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	    static inline function() {}
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c:1:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c:1:19: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
     static inline function() {}
     ~~~~~~~~~~~~~ ^
-/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c:1:31: warning: control reaches end of non-void function [-Wreturn-type]
+/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c:1:31: warning: control reaches end of non-void function [-Wreturn-type]
     static inline function() {}
                               ^
 2 warnings generated.
 check_cc
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	    static __attribute__((always_inline)) function() {}
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c:1:43: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c:1:43: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
     static __attribute__((always_inline)) function() {}
     ~~~~~~                                ^
-/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c:1:55: warning: control reaches end of non-void function [-Wreturn-type]
+/var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c:1:55: warning: control reaches end of non-void function [-Wreturn-type]
     static __attribute__((always_inline)) function() {}
                                                       ^
 2 warnings generated.
 check_cxxflags -Wall
 check_cxx -Wall
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wall
 check_cc -Wall
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wdeclaration-after-statement
 check_cxx -Wdeclaration-after-statement
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wdeclaration-after-statement
 check_cc -Wdeclaration-after-statement
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wdisabled-optimization
 check_cxx -Wdisabled-optimization
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wdisabled-optimization
 check_cc -Wdisabled-optimization
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wpointer-arith
 check_cxx -Wpointer-arith
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wpointer-arith
 check_cc -Wpointer-arith
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wtype-limits
 check_cxx -Wtype-limits
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wtype-limits
 check_cc -Wtype-limits
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wcast-qual
 check_cxx -Wcast-qual
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wcast-qual
 check_cc -Wcast-qual
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wvla
 check_cxx -Wvla
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wvla
 check_cc -Wvla
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wimplicit-function-declaration
 check_cxx -Wimplicit-function-declaration
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wimplicit-function-declaration
 check_cc -Wimplicit-function-declaration
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wuninitialized
 check_cxx -Wuninitialized
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wuninitialized
 check_cc -Wuninitialized
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wunused-variable
 check_cxx -Wunused-variable
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 check_cflags -Wunused-variable
 check_cc -Wunused-variable
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 check_cxxflags -Wunused-but-set-variable
 check_cxx -Wunused-but-set-variable
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_cflags -Wunused-but-set-variable
 check_cc -Wunused-but-set-variable
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_cxxflags -Wno-unused-function
 check_cxx -Wno-unused-function
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
-/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.cc
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
+/Users/bgrinstead/Code/emscripten/em++ -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.cc
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_cflags -Wno-unused-function
 check_cc -Wno-unused-function
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_header stdio.h
 check_cpp
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "stdio.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_ld
 check_cc
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	int main(void) {return 0;}
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -c -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
-/Users/bgrinstead/Code/emscripten/emcc -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.x /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o
+/Users/bgrinstead/Code/emscripten/emcc -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.x /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o
 clang: warning: argument unused during compilation: '-nostdinc'
 clang: warning: argument unused during compilation: '-Xclang -nobuiltininc'
 clang: warning: argument unused during compilation: '-Xclang -nostdsysteminc'
@@ -237,51 +237,51 @@ clang: warning: argument unused during compilation: '-Xclang -isystem/Users/bgri
 clang: warning: argument unused during compilation: '-Xclang -isystem/Users/bgrinstead/Code/emscripten/system/include/SDL'
 check_header stdint.h
 check_cpp
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "stdint.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_header pthread.h
 check_cpp
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "pthread.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_header sys/mman.h
 check_cpp
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "sys/mman.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_header unistd.h
 check_cpp
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "unistd.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
 check_header vpx/vpx_integer.h -I/Users/bgrinstead/Sites/videoconverter.js/build/libvpx
 check_cpp -I/Users/bgrinstead/Sites/videoconverter.js/build/libvpx
-BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+BEGIN /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
     1	#include "vpx/vpx_integer.h"
     2	int x;
-END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
-/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -I/Users/bgrinstead/Sites/videoconverter.js/build/libvpx -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-52842-30254.c
+END /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
+/Users/bgrinstead/Code/emscripten/emcc -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Wunused-but-set-variable -Wno-unused-function -I/Users/bgrinstead/Sites/videoconverter.js/build/libvpx -E -o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.o /var/folders/cd/y4vdnlns7m3gbblnkqftqq880000gp/T//vpx-conf-70541-11076.c
 clang: warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'?
 warning: unknown warning option '-Wunused-but-set-variable'; did you mean '-Wunused-variable'? [-Wunknown-warning-option]
 1 warning generated.
