@@ -13,7 +13,15 @@ time (
   sudo pip install fig
 
   # FIG BUILD
-  cd /vagrant && fig build
+  cd /vagrant
+  echo
+  echo VERSIONS:
+  echo
+  fig run compiler bash -c 'clang --version; emcc --version'
+  echo
+  echo BUILD:
+  fig run compiler bash -c 'cd /vagrant/build && ./build_lgpl.sh'
+  echo
 
   echo VAGRANT IS READY.
 
